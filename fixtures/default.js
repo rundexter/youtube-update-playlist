@@ -63,7 +63,12 @@ module.exports = _.merge({
              */
             input: {
                 //Replace VAR1 with the name of an expected input, and add more inputs as needed.
-                VAR1: 'foo'
+                part: 'snippet,status',
+                //onBehalfOfContentOwner: 'onBehalfOfContentOwner',
+                id: 'PLYPmdcLyTOumnsEV2FSh4419pzd4E3xRw',
+                title: 'My Api Title',
+                privacyStatus: 'public',
+                tags: ['tag1', 'tag2']
             }
         }
     }

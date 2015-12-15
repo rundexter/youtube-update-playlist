@@ -4,23 +4,70 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "part",
+            "title":"Part"
+        },
+        {
+            "id": "onBehalfOfContentOwner",
+            "title":"OBoCO"
+        },
+        {
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "title",
+            "title":"Title"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "tags",
+            "title":"Tags"
+        },
+        {
+            "id": "privacyStatus",
+            "title":"Privacy Status"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "kind",
+            "title":"Kind"
+        },
+        {
+            "id": "etag",
+            "title":"Etag"
+        },
+        {
+            "id": "publishedAt",
+            "title":"Published"
+        },
+        {
+            "id": "title",
+            "title":"Title"
+        },
+        {
+            "id": "description",
+            "title":"Description"
+        },
+        {
+            "id": "privacyStatus",
+            "title":"Privacy Status"
+        },
+        {
+            "id": "tags",
+            "title":"Tags"
         }
-      */
     ],
+    "icon": "youtube-play",
     "title": "YouTube Update Playlist" /* Required.A display name for the module */
 }
