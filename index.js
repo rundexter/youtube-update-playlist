@@ -40,7 +40,6 @@ module.exports = {
         });
         google.options({ auth: oauth2Client });
         service.playlists.update(util.pickInputs(step, pickInputs), function (error, data) {
-
             error? this.fail(error) : this.complete(util.pickOutputs(data, pickOutputs));
         }.bind(this));
     }
